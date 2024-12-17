@@ -1,0 +1,22 @@
+{
+  "name": "quantum-horizon",
+  "displayName": "Quantum Horizon",
+  "description": "Futuristic VS Code Theme",
+  "version": "1.0.0",
+  "publisher": "A-EDev",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Quantum Horizon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quantum-horizon-color-theme.json"
+      }
+    ]
+  }
+}
