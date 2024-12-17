@@ -18,5 +18,18 @@
         "path": "./themes/quantum-horizon-color-theme.json"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/A-EDev/quantum-horizon.git"
+  },
+  "keywords": [
+    "vscode",
+    "theme",
+    "color theme",
+    "quantum",
+    "horizon"
+  ],
+  "license": "MIT"
+
 }
