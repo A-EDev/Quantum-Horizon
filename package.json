@@ -2,7 +2,7 @@
   "name": "quantum-horizon",
   "displayName": "Quantum Horizon",
   "description": "Futuristic VS Code Theme",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "publisher": "A-EDev",
   "engines": {
     "vscode": "^1.60.0"
