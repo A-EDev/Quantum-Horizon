@@ -1,0 +1,204 @@
+{
+    // Editor Appearance
+    "editor.fontFamily": "Fira Code, Cascadia Code, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.fontWeight": "450",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 24,
+    
+    // Cursor and Selection
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    
+    // Rendering and Performance
+    "editor.renderWhitespace": "boundary",
+    "editor.renderControlCharacters": false,
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 200,
+    
+    // Coding Style
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    
+    // Formatting
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    
+    // Suggestions and IntelliSense
+    "editor.suggestSelection": "first",
+    "editor.suggest.localityBonus": true,
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.suggestFontSize": 12,
+    
+    // Workbench Customization
+    "workbench.colorTheme": "Quantum Horizon",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.tree.indent": 16,
+    
+    // Terminal
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "Fira Code, Cascadia Code, monospace",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.fontWeight": "450",
+    "terminal.integrated.fontLigatures": true,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.terminalName": "Terminal",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows": ["-l"],
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    
+    
+
+
+    // Emmet
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+
+
+    // Prettier
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.arrowParens": "always",
+    "prettier.jsxSingleQuote": true,
+    "prettier.bracketSameLine": true,
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "prettier.semi": true,
+    "prettier.proseWrap": "preserve",
+    "prettier.endOfLine": "lf",
+
+
+    // Explorer
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    
+    // Files
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    
+    // Language Specific Settings
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    
+    // Integrated Debug Console
+    "debug.console.fontSize": 12,
+    
+    // Window
+    "window.zoomLevel": 0,
+    
+    // Breadcrumbs
+    "breadcrumbs.enabled": true,
+    
+    // Git
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    
+    // Performance Optimization
+    "typescript.tsserver.maxMemory": 4096,
+    "javascript.suggest.autoImports": true,
+    
+    // Zen Mode
+    "zenMode.centerLayout": true,
+    "zenMode.fullScreen": false,
+    "zenMode.hideActivityBar": true,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": true,
+    
+    // Experimental Features
+    "experimental.lightCodeProcessing": true,
+
+    // Custom Settings
+    "editor.wordWrap": "on",
+    "editor.rulers": [80, 120],
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.parameterHints": false,
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showSnippets": false,
+    "editor.suggest.showColors": false,
+    "editor.suggest.showConstants": false,
+    "editor.suggest.showConstructors": false,
+    "editor.suggest.showFields": false,
+    "editor.suggest.showFolders": false,
+    "editor.suggest.showFunctions": false,
+    "editor.suggest.showMethods": false,
+    "editor.suggest.showModules": false,
+    "editor.suggest.showOperators": false,
+    "editor.suggest.showProperties": false,
+    "editor.suggest.showReferences": false,
+    
+    // Custom Keybindings
+    "keybindings": [
+        {
+            "command": "editor.action.toggleCodeActionProvider",
+            "key": "ctrl+shift+alt+c"
+        },
+        {
+            "command": "editor.action.quickFix",
+            "key": "ctrl+."
+        },
+        {
+            "command": "editor.action.rename",
+            "key": "ctrl+shift+r"
+        },
+        {
+            "command": "editor.action.showReferences",
+            "key": "ctrl+shift+f"
+        },
+        {
+            "command": "editor.action.formatDocument",
+            "key": "ctrl+shift+i"
+        },
+        {
+            "command": "editor.action.formatDocument",
+            "key": "ctrl+shift+l"
+        },
+        {
+            "command": "editor.action.formatDocument",
+            "key": "ctrl+shift+o"
+        },
+        {
+            "command": "editor.action.formatDocument",
+            "key": "ctrl+shift+p"
+        },
+        {
+            "command": "editor.action.formatDocument",
+            "key": "ctrl+shift+u"
+        },
+        {
+            "command": "editor.action.formatDocument",
+            "key": "ctrl+shift+y"
+        },
+        {
+            "command": "editor.action.formatDocument",
+            "key": "ctrl+shift+z"
+        }
+    ]
+}

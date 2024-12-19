@@ -1,21 +1,60 @@
 {
   "name": "quantum-horizon",
-  "displayName": "Quantum Horizon",
-  "description": "Futuristic VS Code Theme",
-  "version": "1.2.0",
+  "displayName": "Quantum Horizon ",
+  "description": "🌌 A premium collection of meticulously crafted themes for VS Code. Features 7 unique themes including Cyberpunk, Aurora, Elegant, and more. Experience enhanced syntax highlighting and exceptional readability.",
+  "version": "1.3.6",
   "publisher": "A-EDev",
+  "author": {
+    "name": "A-EDev",
+    "url": "https://github.com/A-EDev"
+  },
   "engines": {
     "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
   ],
+  "galleryBanner": {
+    "color": "#0D1117",
+    "theme": "dark"
+  },
+  "icon": "assets/quantum-horizon-logo.png",
   "contributes": {
     "themes": [
       {
-        "label": "Quantum Horizon",
+        "label": "Quantum Horizon Premium",
         "uiTheme": "vs-dark",
         "path": "./themes/quantum-horizon-color-theme.json"
+      },
+      {
+        "label": "Quantum Horizon Elegant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quantum-horizon-elegant.json"
+      },
+      {
+        "label": "Quantum Horizon Minimalist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quantum-horizon-minimalist.json"
+      },
+      {
+        "label": "Quantum Horizon Futuristic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quantum-horizon-futuristic.json"
+      },
+      {
+        "label": "Quantum Horizon Cyberpunk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quantum-horizon-cyberpunk.json"
+      },
+      {
+        "label": "Quantum Horizon Ultimate Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quantum-horizon-ultimate-dark.json"
+      },
+      {
+        "label": "Quantum Horizon Aurora",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quantum-horizon-aurora.json"
       }
     ]
   },
@@ -23,13 +62,41 @@
     "type": "git",
     "url": "https://github.com/A-EDev/quantum-horizon.git"
   },
+  "bugs": {
+    "url": "https://github.com/A-EDev/quantum-horizon/issues"
+  },
+  "homepage": "https://github.com/A-EDev/quantum-horizon#readme",
   "keywords": [
-    "vscode",
     "theme",
-    "color theme",
+    "dark theme",
     "quantum",
-    "horizon"
+    "horizon",
+    "cyberpunk",
+    "aurora",
+    "elegant",
+    "minimalist",
+    "color theme",
+    "premium theme",
+    "vscode theme",
+    "visual studio code",
+    "syntax highlighting",
+    "custom theme"
   ],
+  "scripts": {
+    "publish": "vsce publish",
+    "package": "vsce package"
+  },
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": {
+      "supported": true
+    }
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/A-EDev"
+  },
+  "preview": false,
   "license": "MIT"
-
 }

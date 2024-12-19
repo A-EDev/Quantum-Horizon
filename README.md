@@ -1,10 +1,63 @@
-# Quantum Horizon 🌌✨
+<div align="center">
 
-## Elevate Your Coding Universe
+# 🌌 QUANTUM HORIZON
 
-### 🚀 Introducing Quantum Horizon: Where Code Meets Cosmos
+<img src="assets/quantum-banner.png" width="100%" alt="Quantum Horizon Banner">
 
-Quantum Horizon isn't just a theme—it's a transformative coding experience that transcends traditional design boundaries. Meticulously crafted for the discerning developer who sees code as an art form.
+[![Version](https://img.shields.io/visual-studio-marketplace/v/A-EDev.quantum-horizon?style=for-the-badge&labelColor=1A1B2E&color=7D5DEC)](https://marketplace.visualstudio.com/items?itemName=A-EDev.quantum-horizon)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/A-EDev.quantum-horizon?style=for-the-badge&labelColor=1A1B2E&color=FF92DF)](https://marketplace.visualstudio.com/items?itemName=A-EDev.quantum-horizon)
+[![Rating](https://img.shields.io/visual-studio-marketplace/stars/A-EDev.quantum-horizon?style=for-the-badge&labelColor=1A1B2E&color=80FFEA)](https://marketplace.visualstudio.com/items?itemName=A-EDev.quantum-horizon)
+
+> *"Where Code Meets Cosmos: A Premium Visual Studio Code Experience"*
+
+</div>
+
+---
+
+<div align="center">
+  <img src="assets/previews/theme-showcase.png" width="90%" alt="Theme Showcase">
+</div>
+
+## 🎨 Theme Collection
+
+### Choose Your Coding Universe
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="assets/previews/premium.png" alt="Premium Theme">
+<br><strong>Premium</strong>
+<br><em>Luxurious & Refined</em>
+</td>
+<td align="center" width="33%">
+<img src="assets/previews/cyberpunk.png" alt="Cyberpunk Theme">
+<br><strong>Cyberpunk</strong>
+<br><em>Neon & Electric</em>
+</td>
+<td align="center" width="33%">
+<img src="assets/previews/aurora.png" alt="Aurora Theme">
+<br><strong>Aurora</strong>
+<br><em>Nordic & Ethereal</em>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<img src="assets/previews/minimalist.png" alt="Minimalist Theme">
+<br><strong>Minimalist</strong>
+<br><em>Clean & Focused</em>
+</td>
+<td align="center" width="33%">
+<img src="assets/previews/elegant.png" alt="Elegant Theme">
+<br><strong>Elegant</strong>
+<br><em>Sophisticated & Clear</em>
+</td>
+<td align="center" width="33%">
+<img src="assets/previews/galactic.png" alt="Galactic Theme">
+<br><strong>Galactic</strong>
+<br><em>Expansive & Bold</em>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -143,7 +196,7 @@ Quantum Horizon transcends traditional theming by:
 **A-EDev**: A passionate developer committed to creating transformative coding experiences.
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/A-EDev)
-[![Twitter Follow](https://img.shields.io/twitter/follow/A_EDev?style=social)](https://twitter.com/A_EDev)
+[![Twitter Follow](https://img.shields.io/twitter/follow/A_EDev?style=social)](https://twitter.com/AE_pluss)
 
 ---
 
