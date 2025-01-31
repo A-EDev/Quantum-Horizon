@@ -4,7 +4,7 @@
     "colors": {
         "editor.background": {
             "type": "gradient",
-            "colors": ["#15101A", "#1A1517", "#1E1519"],
+            "colors": ["#0A0808", "#0C090A", "#0E0A0B"],
             "stops": [0, 0.5, 1]
         },
         "editor.foreground": "#D4C7CB",
@@ -26,7 +26,7 @@
         
         "activityBar.background": {
             "type": "gradient",
-            "colors": ["#140F11", "#1A1315"],
+            "colors": ["#070607", "#090708"],
             "stops": [0, 1]
         },
         "activityBar.foreground": "#FF3366",
@@ -46,7 +46,7 @@
         
         "sideBar.background": {
             "type": "gradient",
-            "colors": ["#161113", "#1C1416"],
+            "colors": ["#080607", "#0A0708"],
             "stops": [0, 1]
         },
         "sideBar.foreground": "#D4C7CB",
@@ -56,16 +56,16 @@
         
         "titleBar.activeBackground": {
             "type": "gradient",
-            "colors": ["#1A1517", "#221619"],
+            "colors": ["#0A0808", "#0C090A"],
             "stops": [0, 1]
         },
         "titleBar.activeForeground": "#FF3366",
-        "titleBar.inactiveBackground": "#140F11",
+        "titleBar.inactiveBackground": "#070506",
         "titleBar.inactiveForeground": "#6E4E56",
         
         "statusBar.background": {
             "type": "gradient",
-            "colors": ["#140F11", "#1A1315"],
+            "colors": ["#070506", "#090708"],
             "stops": [0, 1]
         },
         "statusBar.foreground": "#D4C7CB",
@@ -74,10 +74,10 @@
         
         "tab.activeBackground": {
             "type": "gradient",
-            "colors": ["#2B1F24", "#2B1F24CC"],
+            "colors": ["#110C0E", "#110C0ECC"],
             "stops": [0, 1]
         },
-        "tab.inactiveBackground": "#1A1517",
+        "tab.inactiveBackground": "#0A0808",
         "tab.activeForeground": "#FF3366",
         "tab.inactiveForeground": "#6E4E56",
         "tab.activeBorderTop": "#FF3366",
@@ -86,7 +86,7 @@
         
         "terminal.background": {
             "type": "gradient",
-            "colors": ["#140F11", "#1A1315"],
+            "colors": ["#070506", "#090708"],
             "stops": [0, 1]
         },
         "terminal.foreground": "#D4C7CB",
@@ -97,14 +97,14 @@
         "terminal.ansiBlue": "#9966CC",
         "terminal.ansiBrightBlue": "#B088FF",
         
-        "input.background": "#2B1F24",
+        "input.background": "#110C0E",
         "input.foreground": "#D4C7CB",
         "input.border": "#4A2B36",
         "input.placeholderForeground": "#6E4E56",
         
-        "scrollbarSlider.background": "#4A2B3666",
-        "scrollbarSlider.hoverBackground": "#4A2B3688",
-        "scrollbarSlider.activeBackground": "#4A2B36AA",
+        "scrollbarSlider.background": "#FF336622",
+        "scrollbarSlider.hoverBackground": "#FF336644",
+        "scrollbarSlider.activeBackground": "#FF336666",
         
         "editorGutter.modifiedBackground": "#CC3366",
         "editorGutter.addedBackground": "#99CC99",
@@ -121,12 +121,12 @@
         "breadcrumb.focusForeground": "#FF3366",
         "breadcrumb.activeSelectionForeground": "#FF6699",
         
-        "menu.background": "#15101A",
+        "menu.background": "#070506",
         "menu.foreground": "#D4C7CB",
         "menu.selectionBackground": "#4A2B36",
         "menu.selectionForeground": "#FF3366",
         
-        "gitDecoration.modifiedResourceForeground": "#CC3366",
+        "gitDecoration.modifiedResourceForeground": "#FF4778",
         "gitDecoration.deletedResourceForeground": "#FF3366",
         "gitDecoration.untrackedResourceForeground": "#99CC99",
         "gitDecoration.conflictingResourceForeground": "#FF6699",
@@ -136,12 +136,24 @@
         "debugIcon.pauseForeground": "#CC3366",
         "debugIcon.stopForeground": "#FF6699",
         
-        "notifications.background": "#15101A",
+        "notifications.background": "#070506",
         "notifications.foreground": "#D4C7CB",
         "notificationLink.foreground": "#FF3366",
         "notificationsErrorIcon.foreground": "#FF3366",
         "notificationsWarningIcon.foreground": "#FFCC66",
-        "notificationsInfoIcon.foreground": "#99CC99"
+        "notificationsInfoIcon.foreground": "#99CC99",
+        
+        "widget.shadow": "#00000060",
+        "dropdown.background": "#0C090A",
+        "picker.background": "#0A0808",
+        
+        "panel.background": "#070506",
+        "panelTitle.activeForeground": "#FF3366",
+        "panelTitle.inactiveForeground": "#6E4E56",
+        
+        "list.activeSelectionBackground": "#FF336622",
+        "list.hoverBackground": "#FF336615",
+        "list.inactiveSelectionBackground": "#FF336619"
     },
     "tokenColors": [
         {
