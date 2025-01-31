@@ -200,7 +200,16 @@
         "chat.slashCommandBackground": "#2A2440",
         "chat.slashCommandForeground": "#7D5DEC",
         "interactive.activeCodeBorder": "#7D5DEC",
-        "interactive.inactiveCodeBorder": "#1D1B2E"
+        "interactive.inactiveCodeBorder": "#1D1B2E",
+
+        "editor.wordHighlightStrongBackground": "#7D5DEC30",
+        "editor.wordHighlightBorder": "#7D5DEC40",
+        "editor.findRangeHighlightBackground": "#FFB86C20",
+        "editor.hoverHighlightBackground": "#7D5DEC20",
+        "editor.lineHighlightBorder": "#7D5DEC15",
+        "editorError.borderColor": "#FF555580",
+        "editorWarning.borderColor": "#FFB86C80",
+        "editorInfo.borderColor": "#8BE9FD80"
     },
     "tokenColors": [
         {
@@ -286,6 +295,159 @@
                 "foreground": "#BD93F9",
                 "fontStyle": "bold"
             }
+        },
+        {
+            "name": "Arduino Keywords",
+            "scope": [
+                "keyword.control.arduino",
+                "support.function.arduino",
+                "constant.numeric.arduino",
+                "support.constant.arduino"
+            ],
+            "settings": {
+                "foreground": "#7D5DEC",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Arduino Functions",
+            "scope": [
+                "entity.name.function.arduino",
+                "support.function.arduino"
+            ],
+            "settings": {
+                "foreground": "#50FA7B",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "C++ Keywords",
+            "scope": [
+                "keyword.control.c++",
+                "storage.modifier.c++",
+                "keyword.operator.new.c++"
+            ],
+            "settings": {
+                "foreground": "#BD93F9",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "C++ Types",
+            "scope": [
+                "storage.type.c++",
+                "storage.type.primitive.c++",
+                "storage.type.template.c++"
+            ],
+            "settings": {
+                "foreground": "#8BE9FD",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "C++ Macros",
+            "scope": [
+                "entity.name.function.preprocessor.c++",
+                "meta.preprocessor.c++"
+            ],
+            "settings": {
+                "foreground": "#FFB86C",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Java Keywords",
+            "scope": [
+                "keyword.control.java",
+                "storage.modifier.java",
+                "storage.type.java"
+            ],
+            "settings": {
+                "foreground": "#FF79C6",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Java Types",
+            "scope": [
+                "storage.type.primitive.java",
+                "storage.type.generic.java"
+            ],
+            "settings": {
+                "foreground": "#8BE9FD",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Java Annotations",
+            "scope": [
+                "storage.type.annotation.java",
+                "punctuation.definition.annotation.java"
+            ],
+            "settings": {
+                "foreground": "#50FA7B",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Assembly Instructions",
+            "scope": [
+                "keyword.operator.instruction",
+                "entity.name.function.assembly"
+            ],
+            "settings": {
+                "foreground": "#BD93F9",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Assembly Registers",
+            "scope": "storage.register",
+            "settings": {
+                "foreground": "#FF79C6",
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "name": "Hardware Addresses",
+            "scope": [
+                "constant.numeric.hex.assembly",
+                "constant.numeric.binary"
+            ],
+            "settings": {
+                "foreground": "#FFB86C",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Memory Types",
+            "scope": [
+                "storage.type.memory",
+                "storage.modifier.memory"
+            ],
+            "settings": {
+                "foreground": "#8BE9FD",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Preprocessor Directives",
+            "scope": [
+                "meta.preprocessor",
+                "keyword.control.directive"
+            ],
+            "settings": {
+                "foreground": "#FF79C6",
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "name": "Bitwise Operations",
+            "scope": "keyword.operator.bitwise",
+            "settings": {
+                "foreground": "#FFB86C",
+                "fontStyle": "bold"
+            }
         }
     ],
     "semanticTokenColors": {
@@ -328,6 +490,33 @@
         "typeHint": "#8BE9FD",
         "unresolvedReference": "#FF5555",
         "variable.global": "#FFB86C",
-        "variable.static": "#BD93F9"
+        "variable.static": "#BD93F9",
+
+        "macro.declaration": "#FFB86C",
+        "variable.global": "#FF79C6",
+        "variable.static": "#BD93F9",
+        "property.readonly": "#8BE9FD",
+        "variable.volatile": "#FF5555",
+        "operator.bitwise": "#FFB86C",
+        "operator.pointer": "#FF79C6",
+        "type.primitive": "#8BE9FD",
+        "type.modifier": "#BD93F9",
+        "variable.parameter.register": "#FF79C6",
+        "class.template": "#50FA7B",
+        "namespace.system": "#8BE9FD",
+        "function.inline": "#50FA7B",
+        "variable.constant": "#BD93F9",
+        "method.virtual": "#50FA7B",
+        "class.abstract": "#FF79C6",
+        "interface.hardware": "#8BE9FD",
+        "type.interrupt": "#FF5555",
+        "function.constructor": "#FFB86C",
+        "function.destructor": "#FF5555",
+        "type.smartpointer": "#8BE9FD",
+        "operator.overload": "#FF79C6",
+        "function.operator": "#50FA7B",
+        "variable.member.static": "#BD93F9",
+        "type.union": "#8BE9FD",
+        "type.volatile": "#FF5555"
     }
 }
