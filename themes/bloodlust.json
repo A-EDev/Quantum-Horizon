@@ -4,7 +4,7 @@
     "colors": {
         "editor.background": {
             "type": "gradient",
-            "colors": ["#030101", "#050202", "#070303"],
+            "colors": ["#010000", "#020000", "#030000"],
             "stops": [0, 0.5, 1]
         },
         "editor.foreground": "#FFE6E6",
@@ -30,42 +30,48 @@
         "editorOverviewRuler.errorForeground": "#FF0000",
         "editorOverviewRuler.warningForeground": "#FF3333",
         "editorOverviewRuler.infoForeground": "#CC0000",
+        "editorOverviewRuler.background": "#010000",
 
-        "activityBar.background": "#020000",
+        "activityBar.background": "#010000",
         "activityBar.foreground": "#FF0000",
         "activityBar.inactiveForeground": "#800000",
         "activityBarBadge.background": "#FF0000",
         "activityBarBadge.foreground": "#FFFFFF",
-        "activityBar.border": "#400000",
+        "activityBar.border": "#200000",
         "activityBar.activeBorder": "#FF0000",
 
-        "tab.activeBackground": "#200000",
-        "tab.inactiveBackground": "#100000",
+        "tab.activeBackground": "#100000",
+        "tab.inactiveBackground": "#020000",
         "tab.activeForeground": "#FF0000",
         "tab.inactiveForeground": "#800000",
         "tab.activeBorderTop": "#FF0000",
         "tab.hoverBorder": "#FF0000",
         "tab.unfocusedActiveBorder": "#800000",
+        "tab.border": "#200000",
+        "editorGroupHeader.tabsBackground": "#010000",
+        "editorGroupHeader.border": "#200000",
 
-        "statusBar.background": "#020000",
+        "statusBar.background": "#010000",
         "statusBar.foreground": "#FF0000",
-        "statusBar.border": "#400000",
+        "statusBar.border": "#200000",
         "statusBar.debuggingBackground": "#400000",
         "statusBar.debuggingForeground": "#FF0000",
         "statusBarItem.prominentBackground": "#800000",
         "statusBarItem.remoteBackground": "#FF0000",
         "statusBarItem.remoteForeground": "#FFFFFF",
+        "statusBar.noFolderBackground": "#010000",
 
-        "panel.background": "#020000",
-        "panel.border": "#400000",
+        "panel.background": "#010000",
+        "panel.border": "#200000",
         "panelTitle.activeBorder": "#FF0000",
         "panelTitle.activeForeground": "#FF0000",
         "panelTitle.inactiveForeground": "#800000",
-        "sideBar.background": "#020000",
+
+        "sideBar.background": "#010000",
         "sideBar.foreground": "#FFE6E6",
-        "sideBar.border": "#400000",
+        "sideBar.border": "#200000",
         "sideBarTitle.foreground": "#FF0000",
-        "sideBarSectionHeader.background": "#100000",
+        "sideBarSectionHeader.background": "#020000",
         "sideBarSectionHeader.foreground": "#FF0000",
         "sideBarSectionHeader.border": "#400000",
 
@@ -100,7 +106,70 @@
         "terminal.ansiBrightWhite": "#FFFFFF",
         "terminal.selectionBackground": "#80000088",
         "terminalCursor.foreground": "#FF0000",
-        "terminalCursor.background": "#FFFFFF"
+        "terminalCursor.background": "#FFFFFF",
+
+        "titleBar.activeBackground": "#010000",
+        "titleBar.inactiveBackground": "#000000",
+        "titleBar.border": "#200000",
+
+        "dropdown.background": "#020000",
+        "dropdown.border": "#200000",
+
+        "input.background": "#020000",
+        "input.border": "#200000",
+
+        "breadcrumb.background": "#010000",
+        "breadcrumbPicker.background": "#020000",
+
+        "menu.background": "#010000",
+        "menu.border": "#200000",
+        "menubar.selectionBackground": "#100000",
+
+        "notifications.background": "#010000",
+        "notificationCenter.border": "#200000",
+        "notificationToast.border": "#200000",
+
+        "quickInput.background": "#010000",
+        "quickInput.foreground": "#FFE6E6",
+
+        "editorWidget.background": "#020000",
+        "editorWidget.border": "#200000",
+
+        "editorSuggestWidget.background": "#020000",
+        "editorSuggestWidget.border": "#200000",
+
+        "peekView.border": "#200000",
+        "peekViewTitle.background": "#020000",
+        "peekViewEditor.background": "#010000",
+        "peekViewResult.background": "#020000",
+
+        "debugToolBar.background": "#010000",
+        "debugToolBar.border": "#200000",
+
+        "welcomePage.background": "#010000",
+        "walkThrough.embeddedEditorBackground": "#020000",
+
+        "settings.dropdownBackground": "#020000",
+        "settings.numberInputBackground": "#020000",
+        "settings.textInputBackground": "#020000",
+        "settings.checkboxBackground": "#020000",
+        "settings.headerForeground": "#FF0000",
+        "settings.modifiedItemIndicator": "#FF0000",
+
+        "notebook.cellEditorBackground": "#010000",
+        "notebook.cellInsertionIndicator": "#FF0000",
+        "notebook.outputContainerBackgroundColor": "#020000",
+
+        "commandCenter.background": "#010000",
+        "commandCenter.border": "#200000",
+
+        "minimapSlider.background": "#20000080",
+        "minimapSlider.hoverBackground": "#40000080",
+        "minimapSlider.activeBackground": "#60000080",
+
+        "scrollbarSlider.background": "#20000080",
+        "scrollbarSlider.hoverBackground": "#40000080",
+        "scrollbarSlider.activeBackground": "#60000080"
     },
     "tokenColors": [
         {
